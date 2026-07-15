@@ -1,0 +1,1 @@
+const n=async(o,r=2e3,e)=>(console.log("AMAP_KEY not configured, using mock data"),{restaurants:[],source:"mock",error:"API key not configured"}),s=async o=>({location:"116.407413,39.904211",error:"API key not configured"});export{s as geocodeAddress,n as searchNearbyRestaurants};
